@@ -4,7 +4,7 @@ Pod::Spec.new do |spec|
   spec.summary = 'Swift library to easily manage Dates and TimeZones'
   spec.homepage = 'https://github.com/malcommac/SwiftDate'
   spec.license = { :type => 'MIT', :file => 'LICENSE' }
-  spec.author = { 'Daniele Margutti' => 'me@danielemargutti.com' }
+  spec.authors = { 'Daniele Margutti' => 'me@danielemargutti.com' }
   spec.social_media_url = 'http://twitter.com/danielemargutti'
   spec.source = { :git => 'https://github.com/malcommac/SwiftDate.git', :tag => "#{spec.version}" }
   spec.source_files = 'SwiftDate/*.swift'

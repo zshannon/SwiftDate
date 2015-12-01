@@ -6,7 +6,7 @@ Pod::Spec.new do |spec|
   spec.license = { :type => 'MIT', :file => 'LICENSE' }
   spec.authors = { 'Daniele Margutti' => 'me@danielemargutti.com' }
   spec.social_media_url = 'http://twitter.com/danielemargutti'
-  spec.source = { :git => 'https://github.com/malcommac/SwiftDate.git', :tag => "#{spec.version}" }
+  spec.source = { :git => 'https://github.com/zshannon/SwiftDate.git', :tag => spec.version }
   spec.source_files = 'SwiftDate/*.swift'
   spec.ios.deployment_target = '8.0'
   spec.watchos.deployment_target = '2.0'
